@@ -1,0 +1,37 @@
+body{
+    color: white;
+    font-family: cursive;
+    background:linear-gradient(#0a0e59  0%,#104994  100%) ;
+} 
+.header_div{
+    background: snow;
+    color: tomato;
+}
+.header_div img{
+    width: 100px;
+}
+.main_div{
+    background: chartreuse;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid black;
+}
+.main_div label{
+background-color: thistle;
+width: 310px;
+padding: 10px;
+margin-bottom: 0px;
+box-shadow: 5px 5px 18px whitesmoke;
+}
+#camera{
+    border: 2px solid wheat;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+}
+.main_div button{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px white;
+    border: 1px solid brown;
+}
