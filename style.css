@@ -35,3 +35,6 @@ box-shadow: 5px 5px 18px whitesmoke;
     box-shadow: 5px 5px 18px white;
     border: 1px solid brown;
 }
+ img{
+    width: 100px;
+}
