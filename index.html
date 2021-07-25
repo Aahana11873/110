@@ -1,74 +1,42 @@
-
 <html>
-  <head>
-    <title>MobileNet</title>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
 
-  <body>
-    <center>
-      <ol>
-      <div class="col-xs-12 header_div"></div>
-<h1>Image identification <img src="tenor.gif"></h1>
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Introduction to p5.js</h3>
+	<hr>
+  <label>Filter color:</label>
+  <input id="color_name" placeholder="enter filter colour">
+  <br>
+  <br>
+  <button onclick="filter_tint()" class="btn btn-warning">Apply Filter</button>
+  <br>
+  <br>
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
 </div>
-<div class="text_image_result"></div>
-<li>
-  <b> Test image-</b><img src="th (11).jpg">
-</li>
-<h5>Output on Mobile <b>Wolfram project</b>
-  <span> </span>
-</h5>
-<h5>Output on Mobile <b>Mobilenet Model</b>
-  <span>  </span>
-</h5>
-<div class="bob_3">
-  <h4> Result is-</h4>
-  <h4> person  </h4>
-</div>
-<b> Test image-</b><img src="th (12).jpg">
-</li>
-<h5>Output on Mobile <b>Wolfram project</b>
-  <span> </span>
-</h5>
-<h5>Output on Mobile <b>Mobilenet Model</b>
-  <span>  </span>
-</h5>
-<div class="bob_3">
-  <h4> Result is-</h4>
-  <h4> bell heather  </h4>
-</div>
-<b>Test image-</b><img src="1919099.jpg">
-</li>
-<h5>Output on Mobile <b>Wolfram project</b>
-  <span> </span>
-</h5>
-<h5>Output on Mobile <b>Mobilenet Model</b>
-  <span>  </span>
-</h5>
-<div class="bob_3">
-  <h4> Result is-</h4>
-  <h4>  musk rose </h4>
-</div>
-</ol>
-</center>
+
 <script src="main.js"></script>
-  </body>
+</body>
+
 </html>
-
-
-
-
-
-
-
-
- 
 
